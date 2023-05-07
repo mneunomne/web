@@ -3,7 +3,35 @@
   <head>
     <title>From Cat to Dog - Description</title>
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <style>
+      .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: linear-gradient(to bottom, #9FB4C7, #B07E5E);
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+        z-index: 9999;
+        display: none;
+      }
+      .close-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        cursor: pointer;
+      }
+    </style>
+    <script>
+      window.onload = function() {
+        document.getElementById("popup").style.display = "block";
+      };
+      function closePopup() {
+        document.querySelector('.popup').style.display = 'none';
+      }
 
+    </script>
     <style>
       body {
         background: linear-gradient(to bottom, #9FB4C7, #B07E5E);
@@ -137,6 +165,10 @@
     </style>
   </head>
   <body>
+    <div class="popup" id="popup">
+      <button onclick="closePopup()">Close</button>
+      <p>as an animul psychiatrist i find the transishun from kat to dog depicted in the html dokument to be fascinatin the transishun is depicted in stages each one progressivly changin the animuls apeerance and behavyor until it eventualy becums a fully-formed dog from a psychoelogical standpoint this transishun cud be seen as a journy of self-discuvery and groth it starts with a smal and playfull kat with brite green ize as the transishun progresses the kat becums larger its fur thicker and more bristly and its noze and muzle more pronounsed the kats ears droop and becume more rounded and its tail thickens and grows longer all these changes suggest a shift in the animuls personality and demenor from bein playfull and curious to becomin more alert and serious as the transishun reaches its final stages the kat takes on a more dog-like apeerance with a larger noze and more expressiv ize the animuls fur becums even thicker and coarser and its tail more fluffy and expressiv at this point the animul has fully transishuned into a dog both in apeerance and behavyor it has gained a greater sense of confidence and alertness which is reflected in its more serious and attentive demenor overall this transishun from kat to dog is a fascinatin journy of self-discuvery and groth it shows that animuls like humans can undergo significant changes in apeerance and personality as they mature and develop as an animul psychiatrist i belive that understanding these changes and helping animuls navigate them is crucial in ensurin their physical and mental wellbein</p>
+    </div>
     <h1>From Cat to Dog - Description</h1>
     <p class="level0"><span class="l">Level 0:</span> A small feline figure with pointed ears and bright green eyes.</p>
     <p class="level1"><span class="l">Level 1:</span> The feline figure grows larger, and its fur becomes thicker and fluffier.</p>
