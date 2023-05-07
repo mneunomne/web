@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>From Cat to Dog - Description</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+    <style>
+      body {
+        background: linear-gradient(to bottom, #9FB4C7, #B07E5E);
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 15px 10px;
+        padding: 10px;
+        height: 100vh;
+        font-family: 'Cinzel', serif;
+      }
+
+      body::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png");
+        background-repeat: repeat;
+        mix-blend-mode: overlay;
+        z-index: -1;
+        animation: glitch 10s infinite;
+      }
+
+      @keyframes glitch {
+        0%, 20%, 25%, 40%, 50%, 60%, 65%, 80%, 100% {
+          transform: skew(0deg);
+        }
+        21% {
+          transform: skew(30deg);
+        }
+        26% {
+          transform: skew(-30deg);
+        }
+        41% {
+          transform: skew(20deg);
+        }
+        51% {
+          transform: skew(-20deg);
+        }
+        61% {
+          transform: skew(10deg);
+        }
+        66% {
+          transform: skew(-10deg);
+        }
+        81% {
+          transform: skew(5deg);
+        }
+        91% {
+          transform: skew(-5deg);
+        }
+      }
+      
+      h1 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      
+      p {
+        font-size: 16px;
+        line-height: 1;
+        margin-bottom: 20px;
+        transform: scale(1) !important;
+        transform-origin: left;
+      }
+      
+      .level0 {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      
+      .level1 {
+        font-size: 26px;
+        font-weight: bold;
+        transform: scale(1.0);
+      }
+      
+      .level2 {
+        font-size: 28px;
+        font-weight: bold;
+        transform: scale(1.05);
+      }
+      
+      .level3 {
+        font-size: 30px;
+        font-weight: bold;
+        transform: scale(1.10);
+      }
+      
+      .level4 {
+        font-size: 32px;
+        font-weight: bold;
+        transform: scale(1.15);
+      }
+      
+      .level5 {
+        font-size: 34px;
+        font-weight: bold;
+        transform: scale(1.15);
+      }
+      
+      .level6 {
+        font-size: 36px;
+        font-weight: bold;
+        transform: scale(1.20);
+      }
+      
+      .level7 {
+        font-size: 38px;
+        font-weight: bold;
+        transform: scale(1.20);
+      }
+      
+      .level8 {
+        font-size: 40px;
+        font-weight: bold;
+        transform: scale(1.25);
+      }
+      
+      .level9 {
+        font-size: 42px;
+        font-weight: bold;
+        transform: scale(1.25);
+      }
+
+      .l {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>From Cat to Dog - Description</h1>
+    <p class="level0"><span class="l">Level 0:</span> A small feline figure with pointed ears and bright green eyes.</p>
+    <p class="level1"><span class="l">Level 1:</span> The feline figure grows larger, and its fur becomes thicker and fluffier.</p>
+    <p class="level2"><span class="l">Level 2:</span> The ears begin to droop slightly, and the eyes become rounder and more attentive.</p>
+    <p class="level3"><span class="l">Level 3:</span> The nose begins to elongate, and the eyes take on a more intense gaze.</p>
+    <p class="level4"><span class="l">Level 4:</span> The muzzle becomes more prominent, and the eyes become deeper and more soulful.</p>
+    <p class="level5"><span class="l">Level 5:</span> The fur begins to darken and become coarser, while the tail begins to thicken and grow longer.</p>
+    <p class="level6"><span class="l">Level 6:</span> The snout elongates further, and the ears take on a more rounded shape.</p>
+    <p class="level7"><span class="l">Level 7:</span> The fur continues to darken and becomes more bristly, while the tail becomes more pronounced and fluffy.</p>
+    <p class="level8"><span class="l">Level 8:</span> The face takes on a more dog-like shape, with the nose becoming larger and the eyes more
+    <p class="level9"><span class="l">Level 9:</span> The fur becomes even thicker and coarser, while the tail grows even fluffier and more expressive. The animal now resembles a fully-formed dog.
+  </body>
+</html>
